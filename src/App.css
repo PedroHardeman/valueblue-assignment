@@ -1,0 +1,38 @@
+.wrapper {
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  font: 1rem Roboto, sans-serif;
+}
+
+.header {
+  padding: 1rem 2rem;
+  display: flex;
+  background-color: #0047bb;
+  color: white;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.vb-logo {
+  height: auto;
+  width: 200px;
+  border-width: 0px;
+  border: 0px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 0 8rem;
+  gap: 4rem;
+}
+
+.diagram-component {
+  width: 100%;
+  height: 70vh;
+  border: solid 1px black;
+  background-color: white;
+}
